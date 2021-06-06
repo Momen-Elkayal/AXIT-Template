@@ -248,7 +248,12 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
-
+@media (max-width: 991px) {
+  .tabs-section .tab-switch li {
+    height: 60px;
+    line-height: 60px;
+  }
+}
 .tabs-section .tab-switch li.selected,
 .tabs-section .tab-switch li:hover {
   background-color: #ff8b38;
